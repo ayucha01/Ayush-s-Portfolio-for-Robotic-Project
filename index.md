@@ -56,7 +56,7 @@ To complete my project of a rover with a fan and a robotic arm, the first milest
 - Each TT motor has a black and red wires attached as a terminal for battery voltage. The voltage flows from the positive terminal of the battery to the negative terminal. The voltage starts from the power source and starts out through the red wire. It flows through the 5 volt input power pin to the output pins of the H bridge. The source code is trasnferred from the digital pins to the input pins of the H bridge as well, and in the code, each input pin is assigned to the corresponding or matching number. 
 - Arduino board and H Bridge map:
 - <img src="Arduino-UNO-Description.png" alt="Arduino board" width="500" height="400">
-- <img src="H-Bridge-Motor-Driver-Circuit-using-L293D.jpeg" alt="H Bridge" width="500" height="400">
+- <img src="H-Bridge-Motor-Driver-Circuit-using-L293D.jpeg" alt="H Bridge" width="700" height="400">
 - Solution: I forgot that my motors are set in the opposite direction. Because of this, even though both motors are spinning in the same direction, the opposite set up with make the rover as a system rotate. Due to this problem, I decided to switch the set up of the black and red wires, so the individual motors spin in opposite directions making the rover a system move forward. 
 -This is how I fixed this problem.
 - Before my final project needs to be completed, I need my rover to move accordingly to the arduino code with the added modifications. 
