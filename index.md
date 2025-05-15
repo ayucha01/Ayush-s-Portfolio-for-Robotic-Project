@@ -31,7 +31,7 @@ My second milestone is completing my robotic arm and integrating it with my smar
 - My second plan is to test the servo motors of the robotic arm to make sure the servos are rotating accordingly to the controls.
 - My third plan is to make a stand or a table for the robotic arm to be placed on, and that stand is placed nicely on the rover so when the rover moves, the stand with the robotic arm inside doesn't fall.
 - My stand for the rover:
-   <img src="IMG-1404.jpg" alt="Assembled Rover" width="500" height="400">
+   <img src="IMG-1404.jpg" alt="Assembled Rover" width="500" height="600">
 - After I assembled my robotic arm, I had to work on controlling my four servo motors. I already got the codebase, so I decided to upload them onto the arduino board of my robotic arm.
 - One problem I had was a worry that my servo motors have to move accordingly to the handling of the input devices of the potentiometers. Based on the angle the potentiometers are rotated, the servo motors rotate in the same angle.
 - Each servo motor has a corresponding potentiometer that is each connected with an analog pin.
