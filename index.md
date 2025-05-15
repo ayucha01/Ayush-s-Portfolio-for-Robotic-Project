@@ -36,7 +36,7 @@ My second milestone is completing my robotic arm and integrating it with my smar
 - One problem I had was a worry that my servo motors have to move accordingly to the handling of the input devices of the potentiometers. Based on the angle the potentiometers are rotated, the servo motors rotate in the same angle.
 - Each servo motor has a corresponding potentiometer that is each connected with an analog pin.
 - Assembled robotic arm:
-  <img src="IMG-1406.jpg" alt="Assembled Rover" width="500" height="400">
+  <img src="IMG-1406.jpg" alt="Assembled Rover" width="500" height="500">
 - Another problem I faced with my robotic arm was that even thought the one servo motor was spinning, the arm wouldn't move. I realized that stand near the servo motor is not attached to the servo motor. This was a mechanical pproblem, so in order to solve this problem, I used a nut and a screw to attach the servo with the stand. Now, the stand will move with the servo motor.
 - One last problem I have is making my robotic claw pick up objects. Even though the corresponding servo rotates, the claws keep twitching. I keep screwing my robotic claw hard, but the clasws don't open and close smoothly. 
 -Second milestone video:
