@@ -7,41 +7,6 @@ My project is to build a smart car with a self-cooling system and also a robotic
 
 ![Headstone Image](IMG-1417.jpg)
   
-# Final Milestone
-My final milestone is to integrate my final modification of a self-cooling regulating system. This self-cooling regulating system consists of a fan and a thermostat, and this system works by turning on or off a fan based on the detected room temperature from the thermostat.
-- One big problem I had was to assemble the fan and thermostat kit onto my smart car using the breadboard.
-- In order to get familiar with the kit, I first tried powering the fan from the rover.
-- The fan has two wires, one red and one black wire. The 9-volt battery supplies voltage to flows from the red wire and to exit out from the black wire.
-- <img src="IMG-1407 (1).jpg" alt="Assembled Rover" width="200" height="250">
-- I powered the fan by plugging the red wire into one of the output pins of the H-bridge to get power from the battery and the black wire into ground level. The fan was spinning.
-- Then I had to assemble the fan with the thermostat.
-- The thermostat is consisted of a metal conductor (to conduct heat) attached to a digital temperature sensor.
--  <img src="1CA60666-985A-4DFE-B3C1-500DFDA6B598.jpeg" alt="Assembled Rover" width="330" height="250">
-- The thermal sensor also has one yellow wire to transmit data on the detected room temperature to the arduino board. Based on the data and the detected room temperature, the arduino board provides power to the fan if the room temperature exceeds 10 degrees Fahrenheit, and otherwise not.
-- This is a segment of the output of my thermal sensor. 
-- <img src="91E2CE97-54B5-4208-A8AB-7262AFB2E3F6.jpeg" alt="Assembled Rover" width="730" height="500">
-- My final milestone video: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fvaJicvpfIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-- My future goal of this project is to replace the fan with a machine that send data about temperature at different places and other information like pictures and wind speed to remote systems. This gives us opportunities to learn more about those places to make tasks of gathering information easier for human beings, so they can analyze raw data. 
-
-
-# Second Milestone
-My second milestone is completing my robotic arm and integrating it with my smart car.
-- My first plan is to make the robotic arm and assemble its parts.
-- My second plan is to test the servo motors of the robotic arm to make sure the servos are rotating accordingly to the controls.
-- My third plan is to make a stand or a table for the robotic arm to be placed on, and that stand is placed nicely on the rover so when the rover moves, the stand with the robotic arm inside doesn't fall.
-- My stand for the rover:
-   <img src="IMG-1404.jpg" alt="Assembled Rover" width="500" height="600">
-- After I assembled my robotic arm, I had to work on controlling my four servo motors. I already got the codebase, so I decided to upload them onto the arduino board of my robotic arm.
-- One problem I had was a worry that my servo motors have to move accordingly to the handling of the input devices of the potentiometers. Based on the angle the potentiometers are rotated, the servo motors rotate in the same angle.
-- Each servo motor has a corresponding potentiometer that is each connected with an analog pin.
-- Assembled robotic arm:
-  <img src="IMG-1406.jpg" alt="Assembled Rover" width="500" height="500">
-- Another problem I faced with my robotic arm was that even thought the one servo motor was spinning, the arm wouldn't move. I realized that stand near the servo motor is not attached to the servo motor. This was a mechanical pproblem, so in order to solve this problem, I used a nut and a screw to attach the servo with the stand. Now, the stand will move with the servo motor.
-- One last problem I have is making my robotic claw pick up objects. Even though the corresponding servo rotates, the claws keep twitching. I keep screwing my robotic claw hard, but the clasws don't open and close smoothly. 
--Second milestone video:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/X3QUw-6nA50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 # First Milestone
 To complete my project of a rover with a fan and a robotic arm, the first milestone I completed was getting my rover to follow the instructions of my arduino code in order to do basic actions like moving backward, moving forward, and turning towards one direction. I struggled to complete this milestone initially because my rover wouldn’t follow the instructions of my arduino code.
 - First, I tried to assemble all the necessary the mechanical parts of my rover before uploading Arduino source code into the arduino board. I decided to get my wire configuration right before testing my rover's positions.
@@ -62,6 +27,41 @@ To complete my project of a rover with a fan and a robotic arm, the first milest
 - Before my final project needs to be completed, I need my rover to move accordingly to the arduino code with the added modifications. 
 - First milestone video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DG3XcSVxVLQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+# Second Milestone
+My second milestone is completing my robotic arm and integrating it with my smart car.
+- My first plan is to make the robotic arm and assemble its parts.
+- My second plan is to test the servo motors of the robotic arm to make sure the servos are rotating accordingly to the controls.
+- My third plan is to make a stand or a table for the robotic arm to be placed on, and that stand is placed nicely on the rover so when the rover moves, the stand with the robotic arm inside doesn't fall.
+- My stand for the rover:
+   <img src="IMG-1404.jpg" alt="Assembled Rover" width="500" height="600">
+- After I assembled my robotic arm, I had to work on controlling my four servo motors. I already got the codebase, so I decided to upload them onto the arduino board of my robotic arm.
+- One problem I had was a worry that my servo motors have to move accordingly to the handling of the input devices of the potentiometers. Based on the angle the potentiometers are rotated, the servo motors rotate in the same angle.
+- Each servo motor has a corresponding potentiometer that is each connected with an analog pin.
+- Assembled robotic arm:
+  <img src="IMG-1406.jpg" alt="Assembled Rover" width="500" height="500">
+- Another problem I faced with my robotic arm was that even thought the one servo motor was spinning, the arm wouldn't move. I realized that stand near the servo motor is not attached to the servo motor. This was a mechanical pproblem, so in order to solve this problem, I used a nut and a screw to attach the servo with the stand. Now, the stand will move with the servo motor.
+- One last problem I have is making my robotic claw pick up objects. Even though the corresponding servo rotates, the claws keep twitching. I keep screwing my robotic claw hard, but the clasws don't open and close smoothly. 
+-Second milestone video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X3QUw-6nA50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+# Final Milestone
+My final milestone is to integrate my final modification of a self-cooling regulating system. This self-cooling regulating system consists of a fan and a thermostat, and this system works by turning on or off a fan based on the detected room temperature from the thermostat.
+- One big problem I had was to assemble the fan and thermostat kit onto my smart car using the breadboard.
+- In order to get familiar with the kit, I first tried powering the fan from the rover.
+- The fan has two wires, one red and one black wire. The 9-volt battery supplies voltage to flows from the red wire and to exit out from the black wire.
+- <img src="IMG-1407 (1).jpg" alt="Assembled Rover" width="200" height="250">
+- I powered the fan by plugging the red wire into one of the output pins of the H-bridge to get power from the battery and the black wire into ground level. The fan was spinning.
+- Then I had to assemble the fan with the thermostat.
+- The thermostat is consisted of a metal conductor (to conduct heat) attached to a digital temperature sensor.
+-  <img src="1CA60666-985A-4DFE-B3C1-500DFDA6B598.jpeg" alt="Assembled Rover" width="330" height="250">
+- The thermal sensor also has one yellow wire to transmit data on the detected room temperature to the arduino board. Based on the data and the detected room temperature, the arduino board provides power to the fan if the room temperature exceeds 10 degrees Fahrenheit, and otherwise not.
+- This is a segment of the output of my thermal sensor. 
+- <img src="91E2CE97-54B5-4208-A8AB-7262AFB2E3F6.jpeg" alt="Assembled Rover" width="730" height="500">
+- My final milestone video: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fvaJicvpfIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- My future goal of this project is to replace the fan with a machine that send data about temperature at different places and other information like pictures and wind speed to remote systems. This gives us opportunities to learn more about those places to make tasks of gathering information easier for human beings, so they can analyze raw data. 
+
 
 # Schematics 
 ![Headstone Image](5A416919-024C-4747-82ED-2BB453C713FC.jpeg) 
